@@ -2,6 +2,7 @@
 __delaunayn__.cc|$(QHULL_CPPFLAGS)|$(QHULL_LDFLAGS)|$(QHULL_LIBS)
 __fltk_uigetfile__.cc|$(FLTK_CPPFLAGS) $(FT2_CPPFLAGS)|$(FLTK_LDFLAGS) $(FT2_LDFLAGS)|$(FLTK_LIBS) $(FT2_LIBS)
 __glpk__.cc|$(GLPK_CPPFLAGS)|$(GLPK_LDFLAGS)|$(GLPK_LIBS)
+__highs__.cc|-g3 -std=c++11 -I/home/jajhall/HiGHS/build -I/home/jajhall/HiGHS/src|-L/home/jajhall/HiGHS/build/lib|-lhighs
 __init_fltk__.cc|$(FLTK_CPPFLAGS) $(FT2_CPPFLAGS) $(FONTCONFIG_CPPFLAGS)|$(FLTK_LDFLAGS) $(FT2_LDFLAGS)|$(FLTK_LIBS) $(FT2_LIBS) $(OPENGL_LIBS)
 __init_gnuplot__.cc|$(FT2_CPPFLAGS) $(FONTCONFIG_CPPFLAGS)||
 __ode15__.cc|$(SUNDIALS_XCPPFLAGS)|$(SUNDIALS_XLDFLAGS)|$(SUNDIALS_XLIBS)
